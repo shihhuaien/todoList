@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import AddTaskRoundedIcon from '@mui/icons-material/AddTaskRounded';
 
 export default function NavBar() {
     return (
@@ -19,7 +20,7 @@ export default function NavBar() {
                         aria-label="menu"
                         sx={{ mr: 2 }}
                     >
-                        <MenuIcon />
+                        <AddTaskRoundedIcon />
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         任務列表
